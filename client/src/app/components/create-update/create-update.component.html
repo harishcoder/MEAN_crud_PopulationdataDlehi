@@ -1,0 +1,23 @@
+<h1>Add New Data</h1>
+<hr>
+<form (ngSubmit)="CreateOrUpdate()">
+  <div class="form-group">
+    <label>Year</label>
+    <input type="number"  name="Year" [(ngModel)]="populationdata.Year" class="form-control">
+  </div>
+  <div class="form-group">
+    <label>Population</label>
+    <input type="number" name="Population" [(ngModel)]="populationdata.Population" class="form-control" >
+  </div>
+  <div class="form-group">
+    <label>Growth Rate</label>
+    <input type="text" name="GrowthRate" [(ngModel)]="populationdata.GrowthRate" class="form-control" >
+  </div>
+  <div class="form-group">
+    <label>Growth</label>
+    <input type="number" name="Growth" [(ngModel)]="populationdata.Growth" class="form-control">
+  </div>
+  <div class="button">
+    <input type="submit" class='btn btn-success' value='Submit'>
+  </div>
+</form>

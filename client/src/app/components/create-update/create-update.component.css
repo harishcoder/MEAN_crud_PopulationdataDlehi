@@ -1,0 +1,15 @@
+h1{
+  text-align: center;
+}
+form{
+  width:50%;
+  margin: auto;
+}
+form .form-group label{
+  font-size: 20px;
+  
+  margin: 0px 10px;
+}
+form .button .btn{
+  margin:0px 43%;
+}
